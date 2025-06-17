@@ -30,8 +30,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_blue_plus: ^1.27.0
-  provider: ^6.0.5
+  provider: ^6.0.5 # For state management
+  permission_handler: ^11.1.0 # To check Bluetooth permissions and service status
+  app_settings_plus: ^5.2.0+2 # To open device settings
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
